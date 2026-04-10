@@ -20,6 +20,23 @@ This project aims to identify customer segments at the highest risk of churn in 
 | Yashvardhan Sharma | LLM Specialist       |
 | Ka'Mia Mungo       | LLM Specialist       |
 
+## Repository Structure
+
+```
+BU7156-Group5-Churn-Analytics/
+├── README.md
+├── data/                 # Contains all datasets used in this project 
+│   ├── processed/        # Cleaned and feature-engineered dataset ready for EDA/modelling
+│   └── raw/              # Original Kaggle dataset
+├── docs/                               # Contains project documentation produced by the teams
+│   └── Data_Preparation_Description    # Full data cleaning and feature engineering notes
+├── notebooks/                          # Contains all Jupyter notebooks and codes organised sequentially by project phase
+│   └── 01_data_preparation.ipynb       # Data cleaning and feature engineering pipeline
+├── outputs/              # Final exported charts and assets used in the presentation
+├── prompts/              # LLM prompt logs (inputs, outputs, and critique)
+└── visualizations/       # Charts and dashboards produced by the Visualisation team
+```
+
 ## Data Preparation
 - Raw dataset cleaned and processed by the Data Engineering team
 - Key features engineered: `recency_days`, `tenure_days`, `monetary`, `purchase_intensity`, `inactivity_ratio`
