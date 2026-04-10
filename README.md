@@ -20,6 +20,12 @@ This project aims to identify customer segments at the highest risk of churn in 
 | Yashvardhan Sharma | LLM Specialist       |
 | Ka'Mia Mungo       | LLM Specialist       |
 
+## Data Preparation
+- Raw dataset cleaned and processed by the Data Engineering team
+- Key features engineered: `recency_days`, `tenure_days`, `monetary`, `purchase_intensity`, `inactivity_ratio`
+- Outliers retained strategically - tree-based models handle variance
+- Full preparation notes: [`docs/Data_Preparation_Description`](docs/Data_Preparation_Description)
+    
 ## Prompts Log
 See /prompts for all LLM inputs, outputs, and critique.
 
