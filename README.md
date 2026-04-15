@@ -57,3 +57,11 @@ BU7156-Group5-Churn-Analytics/
 
 ## Prompts Log
 See [`/prompts/LLM_Expert.pdf`](prompts/LLM_Expert_Report.pdf) for all 7 LLM prompts, full inputs, outputs, critiques, and GenAI acknowledgement per TCD guidelines.
+
+## GenAI Acknowledgement
+Generative AI tools, including Claude 3.5 Sonnet and Claude 3 Haiku (Anthropic) and GPT-4o (OpenAI), were used during the preparation of this group project across four specific workstreams: code generation for data engineering and EDA scaffolding, interpretation of model outputs into business language, drafting of 
+business recommendations grounded in dataset-verified figures, and refinement of written narrative for executive communication.
+
+All analytical decisions, model selections, feature engineering choices, and business judgements presented in this report were independently developed by the team based on our own understanding of the data, module material, and guest lecture sessions. The intellectual substance of the analysis - including the identification of churn drivers, RFM segmentation strategy, XGBoost model selection rationale, and the five targeted business recommendations - reflects the team's own critical evaluation and verification against the actual dataset.
+
+Every LLM output was reviewed, validated, and corrected by team members before inclusion in any project deliverable. Where LLM outputs contained inaccurate figures, hallucinated insights, or statistically unverified claims, these were identified and removed. Generative AI was used as an analytical accelerant and writing-support tool and did not independently generate the core analysis, model outputs, visualisations, or conclusions presented in this submission.
