@@ -56,4 +56,4 @@ BU7156-Group5-Churn-Analytics/
 - XGBoost (SMOTE, n=20) selected as best model: **Recall = 0.68**, identifying €68,731 in recoverable revenue
 
 ## Prompts Log
-See [`/prompts/LLM_Expert_Report_COMBINED_FINAL_v4.docx`](prompts/LLM_Expert_Report.pdf) for all 7 LLM prompts, full inputs, outputs, critiques, and GenAI acknowledgement per TCD guidelines.
+See [`/prompts/LLM_Expert.pdf`](prompts/LLM_Expert_Report.pdf) for all 7 LLM prompts, full inputs, outputs, critiques, and GenAI acknowledgement per TCD guidelines.
