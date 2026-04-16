@@ -46,7 +46,8 @@ BU7156-Group5-Churn-Analytics/
 │   ├── 07_chart4_behavioral_signals.py # Violin plots - behavioural features vs. churn
 │   ├── 08_Chart 5_Comparison.py        # Model performance comparison - before and after SMOTE across LR, RF, XGBoost
 │   └── 09_Chart 6_FeatureImportance.py # XGBoost feature importance - top 10 churn predictors
-├── outputs/              # Final exported charts and assets used in the presentation
+├── outputs/              # Final project assets for submission
+│   │   └── BU7156_Group 5_Ecommerce_Churn_Analytics.ppxt   # Final presentation deck for submission
 ├── prompts/              # LLM prompt logs (inputs, outputs, and critique)
 │   └── LLM_Expert_Report.pdf  # Full LLM workstream - 7 prompts, exact inputs/outputs, critiques
 └── visualizations/       # Charts and dashboards produced by the Visualisation team
